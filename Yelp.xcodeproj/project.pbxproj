@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		201AC15D1E6128A4003916D4 /* BusinessCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201AC15C1E6128A4003916D4 /* BusinessCell.swift */; };
 		A581AE321DB53860006544B2 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = A581AE311DB53860006544B2 /* Business.swift */; };
 		A581AE341DB53945006544B2 /* YelpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A581AE331DB53945006544B2 /* YelpClient.swift */; };
 		A581AE361DB5398F006544B2 /* BusinessesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A581AE351DB5398F006544B2 /* BusinessesViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		201AC15C1E6128A4003916D4 /* BusinessCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessCell.swift; sourceTree = "<group>"; };
 		54E6FC3FD7D2654ED0511482 /* Pods-Yelp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yelp.release.xcconfig"; path = "Pods/Target Support Files/Pods-Yelp/Pods-Yelp.release.xcconfig"; sourceTree = "<group>"; };
 		6003C10E6EEF3A2ABECCE9B2 /* Pods-Yelp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yelp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Yelp/Pods-Yelp.debug.xcconfig"; sourceTree = "<group>"; };
 		A2893DC5CAF45E9E472DFFCC /* Pods_Yelp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yelp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,6 +107,7 @@
 				A5CA68941DB3E1EA0085DCF9 /* Assets.xcassets */,
 				A5CA68961DB3E1EA0085DCF9 /* LaunchScreen.storyboard */,
 				A5CA68991DB3E1EA0085DCF9 /* Info.plist */,
+				201AC15C1E6128A4003916D4 /* BusinessCell.swift */,
 			);
 			path = Yelp;
 			sourceTree = "<group>";
@@ -125,12 +128,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5CA689C1DB3E1EA0085DCF9 /* Build configuration list for PBXNativeTarget "Yelp" */;
 			buildPhases = (
-				E40BC5397D5DA54D1F2F7A3F /* 📦 Check Pods Manifest.lock */,
+				E40BC5397D5DA54D1F2F7A3F /* [CP] Check Pods Manifest.lock */,
 				A5CA68861DB3E1EA0085DCF9 /* Sources */,
 				A5CA68871DB3E1EA0085DCF9 /* Frameworks */,
 				A5CA68881DB3E1EA0085DCF9 /* Resources */,
-				227ED432BB1B8CBEE4F07E06 /* 📦 Embed Pods Frameworks */,
-				43C03E7BDCA629E2D8CA3746 /* 📦 Copy Pods Resources */,
+				227ED432BB1B8CBEE4F07E06 /* [CP] Embed Pods Frameworks */,
+				43C03E7BDCA629E2D8CA3746 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -153,6 +156,7 @@
 				TargetAttributes = {
 					A5CA68891DB3E1EA0085DCF9 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 83RFM76L96;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -189,14 +193,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		227ED432BB1B8CBEE4F07E06 /* 📦 Embed Pods Frameworks */ = {
+		227ED432BB1B8CBEE4F07E06 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,14 +208,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yelp/Pods-Yelp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		43C03E7BDCA629E2D8CA3746 /* 📦 Copy Pods Resources */ = {
+		43C03E7BDCA629E2D8CA3746 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,19 +223,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yelp/Pods-Yelp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E40BC5397D5DA54D1F2F7A3F /* 📦 Check Pods Manifest.lock */ = {
+		E40BC5397D5DA54D1F2F7A3F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -241,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				201AC15D1E6128A4003916D4 /* BusinessCell.swift in Sources */,
 				A581AE361DB5398F006544B2 /* BusinessesViewController.swift in Sources */,
 				A581AE341DB53945006544B2 /* YelpClient.swift in Sources */,
 				A581AE321DB53860006544B2 /* Business.swift in Sources */,
@@ -368,9 +373,10 @@
 			baseConfigurationReference = 6003C10E6EEF3A2ABECCE9B2 /* Pods-Yelp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 83RFM76L96;
 				INFOPLIST_FILE = Yelp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = coderschool.Yelp;
+				PRODUCT_BUNDLE_IDENTIFIER = ttpthao.Yelp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -381,9 +387,10 @@
 			baseConfigurationReference = 54E6FC3FD7D2654ED0511482 /* Pods-Yelp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 83RFM76L96;
 				INFOPLIST_FILE = Yelp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = coderschool.Yelp;
+				PRODUCT_BUNDLE_IDENTIFIER = ttpthao.Yelp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
